@@ -8,6 +8,69 @@
     <link rel = "stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <div id = "heading">
+        <h1>DATA STRUCTURE</h1>
+    </div>
+
+    <div class="container">
+        <div class="col-lg-4 col-md-6">
+            <div class = "box">
+                <h3 class = "title1">
+                    Segment tree
+                </h3>
+                <p>
+                    Segment tree is a data structure that answer query in the time compexity of log(n). 
+                    There are many type of segment tree, including:
+                        <ul>
+                            <li>rmq segment tree</li>
+                            <li>lazy segment tree</li>
+                            <li>merge sort tree</li>
+                            <li>persistent segment tree</li>
+                            <li>sum segment tree</li>
+                            <li>segment tree beat</li>
+                        </ul>
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class = "box">
+                <h3 class = "title2">
+                    Z-function
+                </h3>
+                <p>
+                    Suppose we are given a string s of length n. 
+                    The Z-function for this string is an array of length n where the i-th element is equal to the greatest number of characters starting from the position i that coincide with the first characters of s.
+                    In other words, z[i] is the length of the longest common prefix between s and the suffix of s starting at i.
+                    There are many applications of Z-function, such as:
+                    <ul>
+                        <li>find all of the position that string s occur in string t</li>
+                        <li>numbers of distinct substrings</li>
+                        <li>string compression</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class = "box">
+                <h3 class = "title3">
+                    Disjoint set uion
+                </h3>
+                <p>
+                    This data structure provides the following capabilities. 
+                    We are given several elements, each of which is a separate set. 
+                    A DSU will have an operation to combine any two sets, and it will be able to tell in which set a specific element is. 
+                    The classical version also introduces a third operation, it can create a set from a new element.
+                    Thus the basic interface of this data structure consists of only three operations:
+                    <ul>
+                        <li>make_set(v) - creates a new set consisting of the new element v</li>
+                        <li>union_sets(a, b) - merges the two specified sets 
+                            (the set in which the element a is located, and the set in which the element b is located)</li>
+                        <li>find_set(v) - returns the representative (also called leader) of the set that contains the element v. </li>
+
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
